@@ -1,0 +1,14 @@
+.cart-badge {
+    position: absolute;
+    top: 50px; /* Ajusta el valor para posicionar el badge correctamente */
+    right: 62px; /* Ajusta el valor para posicionar el badge correctamente */
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    width: 20px; /* Ajusta el tamaño del círculo */
+    height: 20px; /* Ajusta el tamaño del círculo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}

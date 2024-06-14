@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'MiFuente';
+    src: url("/Fuentes/Straider.ttf") format('woff2'), /* Formato WOFF2 para navegadores modernos */
+  }
+  
+  @font-face {
+    font-family: 'MiFuente2';
+    src: url("/Fuentes/Akira\ Expanded\ Demo.otf") format('woff2'), /* Formato WOFF2 para navegadores modernos */
+  }
+  
+  .tipografia{
+    font-family: 'MiFuente';
+    font-size: 28px;
+  }
+  
+  .tipografia2{
+    font-family: 'MiFuente2';
+}
+
+
+body {
+    background-image: url('/src/assets/hola.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
